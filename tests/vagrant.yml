@@ -9,4 +9,4 @@
   roles:
     - ../../
   post_tasks:
-    - include: post.yml
+    - import_tasks: post.yml
